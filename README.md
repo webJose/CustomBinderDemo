@@ -35,13 +35,13 @@ This repository demonstrates the use of a custom model binder in an ASP.NET Core
 custom decimal model binder. Send a `GET` request to the following endpoint:
 
     ```
-    http://localhost:5000/api/test?test=123,45
+    https://localhost:7030/api/test?test=123,45
     ```
 
     For example, using `curl`:
 
     ```bash
-    curl "http://localhost:5000/api/test?test=123,45"
+    curl "https://localhost:7030/api/test?test=123,45"
     ```
 
     This will trigger the custom model binder that will parse the given number in the query string using the `es-CR` 
